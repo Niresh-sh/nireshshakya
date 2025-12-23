@@ -7,6 +7,6 @@ export default {
         darkbg: "#050b14",
       },
     },
-  },
   plugins: [],
+}
 }
