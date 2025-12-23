@@ -15,8 +15,8 @@ export default function Hero({ onProjects, onContact }) {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a")
-  link.href = "/nireshcv.pdf"
-    link.download = "Niresh_Shakya_CV.pdf"
+  link.href = "/cv.jpeg"
+    link.download = "Niresh_Shakya_CV.jpeg"
     link.click()
   }
 
@@ -152,7 +152,7 @@ export default function Hero({ onProjects, onContact }) {
       {/* CV MODAL */}
       {isCVOpen && (
         <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center px-4">
-          <div className="bg-[#050b14] w-full max-w-4xl rounded-xl border border-gray-700 overflow-hidden">
+          <div className="bg-[#050b14] w-203 max-w-4xl rounded-xl border border-gray-700 overflow-hidden">
 
             {/* Header */}
             <div className="flex items-center justify-between p-4 border-b border-gray-700">
@@ -168,7 +168,7 @@ export default function Hero({ onProjects, onContact }) {
             {/* Preview */}
             <div className="h-[60vh] bg-black">
               <iframe
-                src="/nireshcv.pdf"
+                src="/cv.jpeg"
                 title="CV Preview"
                 className="w-full h-full"
               />

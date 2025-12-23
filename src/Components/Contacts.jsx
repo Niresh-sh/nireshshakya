@@ -28,6 +28,8 @@ export default function Contact() {
       setResult(data.message);
     }
   };
+
+  
   return (
     <section className="relative  bg-[#050b14] overflow-hidden">
       <Toaster position="top-center" reverseOrder={false} />
