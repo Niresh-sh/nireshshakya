@@ -53,7 +53,7 @@ export default function Contact() {
         </div>
 
         {/* Content */}
-        <div className="grid md:grid-cols-2 gap-25 items-start pl-25">
+        <div className="grid md:grid-cols-2 gap-23 items-start md:pl-25">
           {/* Form */}
           <div
             className="bg-[#0b1320]/80 backdrop-blur-md 
@@ -101,7 +101,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full py-3 rounded-lg text-sm font-medium
                 bg-[#0dd3e0] text-[#050b14]
-                hover:opacity-90 transition"
+                hover:opacity-90 transition cursor-pointer"
               >
                 Send Message
               </button>
@@ -111,7 +111,7 @@ export default function Contact() {
 
           {/* Contact Info */}
           <div className="space-y-8">
-            <div className="flex items-start gap-4">
+            <div className="flex items-start gap-4 ">
               <div
                 className="w-10 h-10 flex items-center justify-center
                 rounded-lg bg-[#0b1320]/80 border border-white/10 text-[#0dd3e0]"
@@ -137,7 +137,7 @@ export default function Contact() {
 
             <div className="flex items-start gap-4">
               <div
-                className="w-10 h-10 flex items-center justify-center
+                className="w-10 h-12 flex items-center justify-center
                 rounded-lg bg-[#0b1320]/80 border border-white/10 text-[#0dd3e0]"
               >
                 ⌖
@@ -150,8 +150,8 @@ export default function Contact() {
 
             {/* Socials */}
             <div>
-              <p className="text-gray-400 mb-4">Follow me on</p>
-              <div className="flex gap-4">
+              <p className="text-gray-400 mb-5">Follow me on</p>
+              <div className="flex gap-4 py-3">
                 <div
                   className="w-10 h-10 flex items-center justify-center
                   rounded-lg bg-[#0b1320]/80  border-white/10

@@ -152,7 +152,7 @@ export default function Hero({ onProjects, onContact }) {
       {/* CV MODAL */}
       {isCVOpen && (
         <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center px-4">
-          <div className="bg-[#050b14] w-203 max-w-4xl rounded-xl border border-gray-700 overflow-hidden">
+          <div className="bg-[#050b14] w-200  max-w-4xl rounded-xl border border-gray-700 overflow-hidden">
 
             {/* Header */}
             <div className="flex items-center justify-between p-4 border-b border-gray-700">

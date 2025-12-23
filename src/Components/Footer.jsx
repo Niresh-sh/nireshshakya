@@ -4,7 +4,7 @@ export default function Footer( onHome,
   onProjects,
   onContact,) {
   return (
-    <footer className="relative bg-[#050b14] border-t border-white/10">
+    <footer className="relative bg-[#050b14] border-t border-white/10 ">
       {/* Subtle glow */}
       <div
         className="absolute inset-0 
