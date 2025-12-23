@@ -1,25 +1,25 @@
-import { useRef } from "react"
-import Navbar from "../Components/Navbar"
-import Home from "../Components/HeroSection"
-import About from "../Components/About"
-import Skills from "../Components/Skills"
-import Projects from "../Components/Projects"
-import Contact from "../Components/Contacts"
-import Footer from "../Components/Footer"
+import { useRef } from "react";
+import Navbar from "../Components/Navbar";
+import Home from "../Components/HeroSection";
+import About from "../Components/About";
+import Skills from "../Components/Skills";
+import Projects from "../Components/Projects";
+import Contact from "../Components/Contacts";
+import Footer from "../Components/Footer";
 
 export default function Portfolio() {
-  const homeRef = useRef(null)
-  const aboutRef = useRef(null)
-  const skillsRef = useRef(null)
-  const projectsRef = useRef(null)
-  const contactRef = useRef(null)
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const skillsRef = useRef(null);
+  const projectsRef = useRef(null);
+  const contactRef = useRef(null);
 
   const scrollToSection = (ref) => {
     ref.current?.scrollIntoView({
       behavior: "smooth",
       block: "start",
-    })
-  }
+    });
+  };
 
   return (
     <>
@@ -32,7 +32,14 @@ export default function Portfolio() {
       />
 
       <section ref={homeRef}>
-        <Home />
+        <Home
+          onProjects={() =>
+            projectsRef.current?.scrollIntoView({ behavior: "smooth" })
+          }
+          onContact={() =>
+            contactRef.current?.scrollIntoView({ behavior: "smooth" })
+          }
+        />
       </section>
 
       <section ref={aboutRef}>
@@ -52,5 +59,5 @@ export default function Portfolio() {
         <Footer />
       </section>
     </>
-  )
+  );
 }
