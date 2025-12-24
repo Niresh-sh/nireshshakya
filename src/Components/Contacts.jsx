@@ -38,7 +38,7 @@ export default function Contact() {
         bg-[radial-gradient(circle_at_bottom,#0dd3e015,transparent_45%)]"
       ></div>
 
-      <div className="max-w-7xl mx-auto px-10 relative z-10">
+      <div className="max-w-7xl mx-auto px-8 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
           <p className="text-sm tracking-widest text-[#0dd3e0] mb-4">CONTACT</p>
