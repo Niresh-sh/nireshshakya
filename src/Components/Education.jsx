@@ -3,30 +3,31 @@ import { GraduationCap, Calendar } from "lucide-react";
 
 export default function Education() {
   return (
-    <section className="min-h-screen bg-[radial-gradient(circle_at_right,#0c1b2a,#05080f)] text-white px-16 py-20">
+    <section className="min-h-screen bg-[radial-gradient(circle_at_right,#0c1b2a,#05080f)] text-white px-6 sm:px-16 py-20">
       {/* Header */}
       <div className="text-center mb-24">
         <span className="block text-xs tracking-[0.25em] text-cyan-400 mb-3">
           EDUCATION
         </span>
-        <h2 className="text-4xl font-bold">
+        <h2 className="text-3xl sm:text-4xl font-bold">
           Academic <span className="text-cyan-400">Background</span>
         </h2>
       </div>
 
       {/* Timeline Wrapper */}
-      <div className="relative flex justify-center">
+      <div className="relative flex flex-col md:flex-row justify-center items-center md:items-start md:gap-15">
         {/* Vertical Line */}
-        <div className="absolute w-0.5 h-200 bg-cyan-400">
-          <span className="absolute top-27.5 left-1/2 w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2" />
-          <span className="absolute top-110 left-1/2 w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2" />
-          <span className="absolute top-170 left-1/2 w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2" />
+        <div className="absolute md:relative w-0.5 md:h-50 h-0.75 bg-cyan-400 md:mx-0 mx-auto md:mb-0 mb-10 shrink-0 md:grow-0">
+          {/* Dots */}
+          <span className="absolute md:relative top-[27.5px] md:top-auto left-1/2 md:left-auto w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2 md:translate-x-0 md:mx-auto md:mb-6 md:block hidden" />
+          <span className="absolute md:relative top-27.5 md:top-auto left-1/2 md:left-auto w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2 md:translate-x-0 md:mx-auto md:mb-6 md:block hidden" />
+          <span className="absolute md:relative top-42.5 md:top-auto left-1/2 md:left-auto w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2 md:translate-x-0 md:mx-auto md:mb-0 md:block hidden" />
         </div>
 
         {/* Cards */}
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-10 w-full max-w-225">
           {/* Card 1 - LEFT */}
-          <div className="w-105 bg-[#0b1626] border border-cyan-400/30 rounded-xl p-6 shadow-[0_0_35px_rgba(0,194,209,0.12)]">
+          <div className="w-full md:w-105 bg-[#0b1626] border border-cyan-400/30 rounded-xl p-6 shadow-[0_0_35px_rgba(0,194,209,0.12)] md:-ml-105 mx-auto">
             {/* Top Row: Icon + Title */}
             <div className="flex items-start gap-4 mb-4">
               {/* Icon */}
@@ -60,7 +61,7 @@ export default function Education() {
           </div>
 
           {/* Card 2 - RIGHT */}
-          <div className="w-105 bg-linear-to-br from-[#0b1626] to-[#0a1220] border border-cyan-400/30 rounded-xl p-6 shadow-[0_0_35px_rgba(0,194,209,0.08)] ml-125">
+          <div className="w-full md:w-105 bg-linear-to-br from-[#0b1626] to-[#0a1220] border border-cyan-400/30 rounded-xl p-6 shadow-[0_0_35px_rgba(0,194,209,0.08)] md:ml-105 mx-auto">
             {/* Top Row */}
             <div className="flex items-start gap-4 mb-4">
               {/* Icon */}
@@ -92,7 +93,7 @@ export default function Education() {
           </div>
 
           {/* Card 3 - LEFT */}
-          <div className="w-105 bg-[#0b1626] border border-cyan-400/30 rounded-xl p-6 shadow-[0_0_35px_rgba(0,194,209,0.12)]">
+          <div className="w-full md:w-105 bg-[#0b1626] border border-cyan-400/30 rounded-xl p-6 shadow-[0_0_35px_rgba(0,194,209,0.12)] md:-ml-105 mx-auto">
             {/* Top Row: Icon + Title */}
             <div className="flex items-start gap-4 mb-4">
               {/* Icon */}
