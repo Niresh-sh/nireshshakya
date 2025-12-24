@@ -29,7 +29,6 @@ export default function Contact() {
     }
   };
 
-  
   return (
     <section className="relative  bg-[#050b14] overflow-hidden">
       <Toaster position="top-center" reverseOrder={false} />
@@ -39,7 +38,7 @@ export default function Contact() {
         bg-[radial-gradient(circle_at_bottom,#0dd3e015,transparent_45%)]"
       ></div>
 
-      <div className="max-w-7xl mx-auto px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-10 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
           <p className="text-sm tracking-widest text-[#0dd3e0] mb-4">CONTACT</p>
@@ -110,7 +109,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-8 md:items-start justify-center">
             <div className="flex items-start gap-4 ">
               <div
                 className="w-10 h-10 flex items-center justify-center
@@ -124,16 +123,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* <div className="flex items-start gap-4">
-              <div className="w-10 h-10 flex items-center justify-center
-                rounded-lg bg-[#0b1320]/80 border border-white/10 text-[#0dd3e0]">
-                ☎
-              </div>
-              <div>
-                <p className="text-sm text-gray-400">Phone</p>
-                <p className="text-sm">+1 (555) 123-4567</p>
-              </div>
-            </div> */}
+
 
             <div className="flex items-start gap-4">
               <div
@@ -179,25 +169,11 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center
-              hover:border-[#0dd3e0] hover:text-[#0dd3e0] transition"
+                hover:border-[#0dd3e0] hover:text-[#0dd3e0] transition"
                   >
                     <Linkedin size={18} />
                   </a>
                 </div>
-                {/* <div className="w-10 h-10 flex items-center justify-center
-                  rounded-lg bg-[#0b1320]/80 border-white/10
-                  hover:border-[#0dd3e0]/40 hover:text-[#0dd3e0]
-                  transition cursor-pointer">
-                  <a
-              href="https://www.facebook.com/niresh.shakya.1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center
-              hover:border-[#0dd3e0] hover:text-[#0dd3e0] transition"
-            >
-              <Facebook size={18} />
-            </a>
-                </div> */}
               </div>
             </div>
           </div>
