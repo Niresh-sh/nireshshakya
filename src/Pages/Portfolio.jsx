@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar";
 import Home from "../Components/HeroSection";
 import About from "../Components/About";
+import Education from "../Components/Education";
 import Skills from "../Components/Skills";
 import Projects from "../Components/Projects";
 import Contact from "../Components/Contacts";
@@ -10,6 +11,7 @@ import useInView from '../Components/Useinview';
 export default function Portfolio() {
   const [homeRef, homeInView] = useInView({ threshold: 0.3 });
   const [aboutRef, aboutInView] = useInView({ threshold: 0.3 });
+  const [educationRef, educationInView] = useInView({ threshold: 0.3 });
   const [skillsRef, skillsInView] = useInView({ threshold: 0.3 });
   const [projectsRef, projectsInView] = useInView({ threshold: 0.3 });
   const [contactRef, contactInView] = useInView({ threshold: 0.3 });
@@ -23,6 +25,7 @@ export default function Portfolio() {
       <Navbar
         onHome={() => scrollToSection(homeRef)}
         onAbout={() => scrollToSection(aboutRef)}
+        onEducation={() => scrollToSection(educationRef)}
         onSkills={() => scrollToSection(skillsRef)}
         onProjects={() => scrollToSection(projectsRef)}
         onContact={() => scrollToSection(contactRef)}
@@ -53,6 +56,16 @@ export default function Portfolio() {
         }`}
       >
         <About />
+      </section>
+
+      {/* Education Section */}
+      <section
+        ref={educationRef}
+        className={`transition-all duration-1000 ease-out delay-20 ${
+          educationInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+        }`}
+      >
+        <Education />
       </section>
 
       {/* Skills Section */}

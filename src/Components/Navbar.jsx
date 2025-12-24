@@ -1,6 +1,7 @@
 export default function Navbar({
   onHome,
   onAbout,
+  onEducation,
   onSkills,
   onProjects,
   onContact,
@@ -16,6 +17,7 @@ export default function Navbar({
           {[
             ["Home", onHome],
             ["About", onAbout],
+            ["Education", onEducation],
             ["Skills", onSkills],
             ["Projects", onProjects],
             ["Contact", onContact],
