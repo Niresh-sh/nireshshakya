@@ -18,7 +18,7 @@ export default function Education() {
       <div className="relative flex flex-col items-center md:justify-center">
         {/* Vertical Line */}
         <div className="absolute md:w-0.5 md:h-210 w-[90%] h-0.5 bg-cyan-400 top-7 md:top-0 left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0" />
-        <span className="relative top-40  left-1/2 md:left-auto w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2 md:translate-x-0 md:mx-auto" />
+        <span className="relative top-40  left-1/2 md:right-2 md:left-auto w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2 md:translate-x-0 md:mx-auto" />
         <span className="relative top-110 left-1/2 md:left-auto w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2 md:translate-x-0 md:mx-auto" />
         <span className="relative top-170 left-1/2 md:left-auto w-2.5 h-2.5 bg-cyan-400 rounded-full -translate-x-1/2 md:translate-x-0 md:mx-auto" />
 

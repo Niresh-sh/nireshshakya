@@ -56,11 +56,8 @@ export default function Skills() {
               "REST APIs",
               "Vercel",
               "Netlify",
-              "Nginx",
               "Git",
               "GitHub",
-              "Docker",
-              "AWS",
               "Figma",
               "Canva",
             ]}
@@ -84,9 +81,13 @@ export default function Skills() {
               "CSS3",
               "MongoDB",
               "MySQL",
-              "PostgreSQL",
-              "AWS",
               "Git",
+              "GitHub",
+              "Tailwind CSS",
+              "Postman",
+              "Figma",
+              "Vercel",
+              "Netlify"
             ].map((tech) => (
               <span
                 key={tech}
