@@ -168,7 +168,7 @@ export default function Hero({ onProjects, onContact }) {
             {/* Preview */}
             <div className="h-[60vh] bg-black">
               <iframe
-                src="/cv.jpeg"
+                src="/nireshcv.jpeg"
                 title="CV Preview"
                 className="w-full h-full"
               />
