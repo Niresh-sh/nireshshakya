@@ -43,7 +43,6 @@ export default function Skills() {
               "Node.js",
               "Express.js",
               "PHP",
-              "PostgreSQL",
               "MongoDB",
               "MySQL",
             ]}

@@ -15,7 +15,7 @@ export default function Hero({ onProjects, onContact }) {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a")
-  link.href = "/cv.jpeg"
+  link.href = "/nireshcv.jpeg"
     link.download = "Niresh_Shakya_CV.jpeg"
     link.click()
   }
