@@ -2,6 +2,7 @@ import React from "react";
 import home from "../assets/home.png";
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
+import { CgLivePhoto } from "react-icons/cg";
 
 function Projects() {
   const githubUrl = "https://github.com/Niresh-sh";
@@ -104,7 +105,8 @@ function Projects() {
                   <span>Postman</span>
                   <span>Git</span>
                 </div>
-                <div className="mt-4">
+                <div className="flex items-center gap-2 mt-4">
+                  <span className="text-cyan-400 text-2xl"><CgLivePhoto /></span>
                   <a
                     href="https://trip-planner-system.onrender.com"
                     target="_blank"
