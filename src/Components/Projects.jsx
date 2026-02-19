@@ -104,6 +104,16 @@ function Projects() {
                   <span>Postman</span>
                   <span>Git</span>
                 </div>
+                <div className="mt-4">
+                  <a
+                    href="https://trip-planner-system.onrender.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-cyan-400 hover:underline"
+                  >
+                    Live Demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
