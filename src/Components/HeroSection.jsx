@@ -8,6 +8,7 @@ import {
   Download,
   X
 } from "lucide-react"
+import  icon from '../assets/icon.jpg';
 
 
 export default function Hero({ onProjects, onContact }) {
@@ -134,7 +135,7 @@ export default function Hero({ onProjects, onContact }) {
                 <div className="w-full h-full rounded-full bg-[#050b14]
                   flex items-center justify-center text-6xl md:text-7xl
                   font-bold text-[#0dd3e0]">
-                  <img src="/src/assets/icon.jpg" className="rounded-full w-full h-full object-cover" />
+                  <img src={icon} className="rounded-full w-full h-full object-cover" />
                 </div>
               </div>
             </div>
