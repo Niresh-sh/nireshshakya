@@ -45,9 +45,9 @@ export default function Education() {
               <span className="flex items-center gap-1">Lalitpur, Nepal</span>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">
-              I completed my Secondary Education Examination (SEE) from Moonlight
-              Secondary School, where I built a strong academic foundation and
-              developed essential skills for my future studies.
+              I completed my Secondary Education Examination (SEE) from
+              Moonlight Secondary School, where I built a strong academic
+              foundation and developed essential skills for my future studies.
             </p>
           </div>
 
@@ -98,10 +98,12 @@ export default function Education() {
               <span className="flex items-center gap-1">Kathmandu, Nepal</span>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">
-              I am currently pursuing my Bachelor's degree in Computer
-              Application at Tribhuvan University. This program is enhancing my
-              technical skills and preparing me for a career in software
-              development.
+              I have successfully completed my Bachelor of Computer Applications
+              (BCA) from Tribhuvan University. During this program, I developed
+              a strong foundation in computer applications and gained practical
+              experience in programming, software development, and
+              problem-solving. This academic journey has prepared me to
+              confidently pursue a career in the field of software development.
             </p>
           </div>
         </div>
