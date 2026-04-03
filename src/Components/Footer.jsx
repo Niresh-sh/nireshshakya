@@ -17,7 +17,7 @@ export default function Footer( onHome,
           {/* Left */}
           <p>
             © 2025 Niresh Shakya.
-            <span className="text-[#0dd3e0]">♥</span> All rights reserved.
+             All rights reserved.
           </p>
 
 
