@@ -16,8 +16,8 @@ export default function Hero({ onProjects, onContact }) {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a")
-  link.href = "/Niresh_Shakya_cv.pdf"
-    link.download = "Niresh_Shakya_cv.pdf"
+  link.href = "/niresh_shakya.pdf"
+    link.download = "niresh-shakya.pdf"
     link.click()
   }
 
@@ -165,11 +165,12 @@ export default function Hero({ onProjects, onContact }) {
                 <X size={20} />
               </button>
             </div>
+            
 
             {/* Preview */}
             <div className="h-[75vh] md:h-[60vh] bg-black">
               <iframe
-                src="/Niresh-Shakya-cv.pdf#zoom=page-width"
+                src="/niresh_shakya.pdf#zoom=page-width"
                 title="CV Preview"
                 className="w-full h-full"
               />
